@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/orangeLight"
+    tools:context=".develomentActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="5dp"
+        android:fontFamily="@font/poppins"
+        android:paddingHorizontal="5dp"
+        android:text="@string/menu_tittle"
+        android:textColor="@color/tittle_menu"
+        android:textSize="30sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+       android:paddingHorizontal="10dp"
+        android:layout_marginBottom="10sp"
+        android:fontFamily="@font/poppins"
+        android:text="¡Bienvenido a ScanText! La aplicación móvil que revoluciona la forma en que interactuamos con el texto impreso. ScanText es una herramienta innovadora que utiliza tecnología de reconocimiento óptico de caracteres (OCR) para convertir instantáneamente texto impreso en contenido digital editable."
+        android:textColor="@color/black"
+        android:textSize="13sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingHorizontal="10dp"
+        android:layout_marginBottom="20sp"
+        android:fontFamily="@font/poppins"
+        android:text="Con ScanText, nunca más tendrás que preocuparte por perder información importante de un documento físico. Simplemente toma una foto del texto que deseas transcribir, y nuestra avanzada tecnología OCR se encargará del resto. Podrás transcribir rápidamente libros, revistas, carteles, documentos legales y mucho más en cuestión de segundos.
+"
+        android:textColor="@color/black"
+        android:textSize="13sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingHorizontal="10dp"
+        android:layout_marginBottom="10sp"
+        android:fontFamily="@font/poppins"
+       android:text="Pero ScanText va más allá del simple reconocimiento de texto. Nuestra aplicación también ofrece potentes herramientas de edición para perfeccionar la transcripción y corregir posibles errores. Además, Aunque todavía no esta disponible en un futuro podras exportar el texto transcribido a una variedad de formatos, como documentos de Word, archivos PDF entre otros, Realmente el equipo de ScanText esta trabajando duro, esperemos disfruten de la aplicacion, tanto como nosotros al desarrollarla."
+        android:textColor="@color/black"
+        android:textSize="13sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingHorizontal="10dp"
+        android:layout_marginBottom="5sp"
+        android:fontFamily="@font/poppins"
+        android:text="Integrantes"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingHorizontal="10dp"
+        android:layout_marginBottom="5sp"
+        android:fontFamily="@font/poppins"
+        android:text="Chiquito Petit Arturo José 28.651.798"
+        android:textColor="@color/black"
+        android:textSize="14sp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingHorizontal="10dp"
+        android:layout_marginBottom="5sp"
+        android:fontFamily="@font/poppins"
+        android:text="Ramos González José Francisco 27.961.168"
+        android:textColor="@color/black"
+        android:textSize="14sp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingHorizontal="10dp"
+        android:layout_marginBottom="5sp"
+        android:fontFamily="@font/poppins"
+        android:text="Miranda Colina Moisés David 25.126.183"
+        android:textColor="@color/black"
+        android:textSize="14sp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingHorizontal="10dp"
+        android:layout_marginBottom="5sp"
+        android:fontFamily="@font/poppins"
+        android:text="Gonzalez Jordan Pedro Daniel 28.539.283"
+        android:textColor="@color/black"
+        android:textSize="14sp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingHorizontal="10dp"
+        android:layout_marginBottom="5sp"
+        android:fontFamily="@font/poppins"
+        android:text="Romero Meneses Adrian Alejandro 30.251.965"
+        android:textColor="@color/black"
+        android:textSize="14sp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingHorizontal="10dp"
+        android:layout_marginBottom="5sp"
+        android:fontFamily="@font/poppins"
+        android:text="Ramos González Joseignar Jesús 31.293.344"
+        android:textColor="@color/black"
+        android:textSize="14sp" />
+
+
+</LinearLayout>

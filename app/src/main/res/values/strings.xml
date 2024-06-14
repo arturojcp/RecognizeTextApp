@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ScanText</string>
+    <string name="menu_tittle">ScanText</string>
+    <string name="slogan_tittle">"Tu herramienta Digital"</string>
+    <string name="textbtnRecognizeText">Reconocer Texto</string>
+    <string name="textBtnBlogNotes">Notas</string>
+</resources>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/orangeLight"
+    tools:context=".MenuActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="5dp"
+        android:fontFamily="@font/poppins"
+        android:paddingHorizontal="5dp"
+        android:text="@string/menu_tittle"
+        android:textColor="@color/tittle_menu"
+        android:textSize="50sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="70sp"
+        android:fontFamily="@font/poppins"
+        android:text="@string/slogan_tittle"
+        android:textColor="@color/white"
+        android:textSize="17sp" />
+
+
+    <Button
+        android:id="@+id/btnRecognizeApp"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="#CD3737"
+        android:drawableEnd="@drawable/ic_camerabtn"
+        android:fontFamily="@font/poppins"
+        android:text="@string/textbtnRecognizeText"
+        android:textColor="@color/white"
+        android:textSize="17dp" />
+
+    <Button
+        android:id="@+id/btnBlogNotes"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="70dp"
+        android:backgroundTint="@color/orange"
+        android:drawableEnd="@drawable/ic_notes"
+        android:fontFamily="@font/poppins"
+        android:text="@string/textBtnBlogNotes"
+        android:textColor="@color/white"
+        android:textSize="21dp" />
+
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="220dp"
+    android:src="@drawable/ic_imagemenu"
+    android:layout_marginBottom="20dp"
+    />
+
+    <Button
+        android:id="@+id/btnDevelomentInfo"
+        android:layout_width="170dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/orange"
+        android:fontFamily="@font/poppins"
+        android:text="Acerca De"
+        android:textColor="@color/white"
+        android:textSize="15dp" />
+
+
+
+</LinearLayout>
